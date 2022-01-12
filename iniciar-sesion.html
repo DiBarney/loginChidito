@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <main>
+        <h1>Iniciar Sesión</h1>
+        <form action="logica/login.php" method="post">
+            <input required type="text" name="usuario" id="usuario" placeholder="Usuario">
+            <input required type="password" name="pwd" id="pwd" placeholder="Contraseña">
+            <input type="submit" id="btnInSn" value="Iniciar Sesión">
+            <!-- <button type="button" id="btnInSn">Iniciar Sesión</button> -->
+        </form>
+    </main>
+
+    <script>
+        // var btnInSn = document.getElementById('btnInSn');
+        // var usuario = document.getElementById('usuario');
+        // var pwd = document.getElementById('pwd');
+
+        // btnInSn.addEventListener('click',()=>validarUruario());
+
+        // function validarUruario(){
+        //     let datos = new FormData();
+        //     datos.append('usuario',usuario.value);
+        //     datos.append('pwd',pwd.value);
+
+        //     fetch(`logica/validarUsr.php`,{
+        //         method: 'POST',
+        //         body: datos
+        //     }).then((response)=>{
+        //         console.log(response.text());
+        //     }).then(texto => console.log(texto))
+        // }
+    </script>
+</body>
+</html>
