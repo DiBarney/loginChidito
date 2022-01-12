@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 main {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
 main form {
@@ -21,6 +24,7 @@ main form button {
   border-radius: 30px;
   background: rgb(226, 226, 226);
   color: rgb(34, 34, 34);
+  font-family: "Roboto", sans-serif;
 }
 
 main form input[type="submit"] {
