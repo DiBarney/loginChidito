@@ -27,9 +27,24 @@ main form button {
   font-family: "Roboto", sans-serif;
 }
 
-main form input[type="submit"] {
+main form input[type="submit"],
+main form button {
   /* main form button { */
   cursor: pointer;
   background: rgb(36, 82, 207);
   color: #fff;
+}
+
+main form .contError {
+  background-color: rgb(253, 164, 164);
+  padding: 10px;
+  border-radius: 30px;
+  width: 100%;
+}
+
+main form .contError p {
+  margin: 0;
+  color: rgb(177, 0, 0);
+  font-size: 12px;
+  text-align: center;
 }
